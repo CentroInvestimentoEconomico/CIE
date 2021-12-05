@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CIE</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" referrerpolicy="no-referrer">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <div class="home">
+      <div class="navbar">
+        <div class="navbar-header">
+          <a href=""><img src="/assets/cie.png" alt="logo-CIE" class="navbar-header__logo"></a>
+          <button type="button" class="navbar-header__toggle">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div><!-- navbar-header-->
+
+        <ul class="navbar-list">
+          <li>
+            <a href="#home" class="navbar-list__link">home</a>
+          </li>
+          <li>
+            <a href="/" class="navbar-list__link">recursos</a>
+          </li>
+          <li>
+            <a href="/" class="navbar-list__link">sobre</a>
+          </li>
+        </ul><!-- navbar-list-->
+
+          <a href="/" class="navbar-btnlogin">Login&nbsp;
+            <i class="fas fa-arrow-right"></i>
+          </a><!-- navbar-btnlogin-->
+      </div><!-- navbar-->
+
+      <div class="background">
+        <video src="./assets/cie-video.mp4" autoplay muted loop class="background__video"></video>
+        <div class="background-texto">
+          <h1 class="background-texto__titulo">Sistema de Gestão <br> Financeira<span class="background__titulo--linha2"> pessoal</span></h1>
+          <p class="background-texto__descricao">Online, completo e fácil de utilizar.</p>
+          <a href="" class="background-texto__cta">Cadastre-se</a>
+        </div> <!-- background-texto-->
+      </div> <!-- background-->
+    </div> <!-- home-->
+  </header>
+
+  <section id="recursos1">
+    <h2 class="section__titulo">Nossos principais <span class="section__titulo--destaque">recursos</span></h2>
+    <div class="cards">
+
+      <article class="card">
+        <img src="/assets/img-card1.png" alt="orcamento" class="card__img">
+        <div class="card__info">
+          <h3 class="info-titulo">METAS DE ORÇAMENTO</h3>
+          <p class="info-descricao">Controle total do orçamento, a partir da definição de despesas e receitas </p>
+        </div>
+      </article> <!-- card-->
+  
+      <article class="card">
+        <img src="/assets/img-card2.png" alt="custos" class="card__img">
+        <div class="card__info">
+          <h3 class="info-titulo">CENTRO DE CUSTOS</h3>
+          <p class="info-descricao">Controle quanto está gastando com  veículo, imóvel e receitas pessoais.</p>
+        </div>
+      </article> <!-- card-->
+  
+      <article class="card">
+        <img src="/assets/img-card3.png" alt="economia" class="card__img">
+        <div class="card__info">
+          <h3 class="info-titulo">METAS DE ECONOMIA</h3>
+          <p class="info-descricao">Defina, planeje e gerencie objetivos financeiros de médio e longo prazo</p>
+        </div>
+      </article> <!-- card-->
+       
+    </div> <!-- cards-->
+  </section> <!-- recursos-->
+
+  <section class="news">
+    <div class="newsletter">
+      <div class="newsletter-info">
+        <h2 class="newsletter-info__titulo">Quer receber nossas novidades?</h2>
+        <p class="newsletter-info__descricao">Cadastre-se para receber nossas newsletters</p>
+      </div>
+      <form action="" class="newsletter-form">
+        <input type="email" name="email" id="" class="newsletter-form__input" placeholder="Digite seu e-mail">
+        <button type="submit" class="newsletter-form__submit">Quero receber</button>
+      </form>
+    </div> <!-- newsletter-->
+  </section>
+
+  <footer class="footer">
+    <div class="footer-container">
+      <ul class="footer-list">
+        <li class="footer-list__item">
+          <a href="" class="footer-list__link">Perguntas frequentes</a>
+        </li>
+        <li class="footer-list__item">
+          <a href="" class="footer-list__link">
+            Fale Conosco</a>
+        </li>
+      </ul>
+
+      <ul class="footer-redessociais">
+        <li><a href=""><i class="fab fa-facebook"></i></a></li>
+        <li><a href=""><i class="fab fa-github"></i></a></li>
+        <li><a href=""><i class="fab fa-twitter"></i></a></li>
+        <li><a href=""><i class="fab fa-whatsapp"></i></a></li>
+      </ul>
+    </div>
+    <div class="copyright">
+      <h6><i class="far fa-copyright"></i> CIE, All Right Reserved </h6>
+    </div>
+  </footer>
+  <script src="/js/toggle.js"></script>
+</body>
+</html>
