@@ -558,3 +558,65 @@ section {
   }
 
 }
+
+/* Pré-Formulário */
+
+.background-form {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  left: 250px;
+}
+
+.start-bottonform__accept {
+  display: block;
+  font-size: 1.5rem;
+  width: 20rem;
+  font-weight: 600;
+  color: var(--color-white);
+  text-align: center;
+  background: var(--color-blue);
+  padding: 1.6rem;
+  letter-spacing: .2rem;
+  border-radius: var(--border-radius);
+  transition: var(--transition);
+  position: relative;
+  left: 100%;
+  top: 20px;
+}
+
+.start-bottonform__accept:hover {
+  background: var(--color-hover-blue);
+  transform: scale(1.05);
+}
+
+.background-texto__form {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--color-bg-dark);
+  max-width: 57rem;
+  margin: 1rem 0;
+}
+
+.background-texto__form__politicsprivac {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--color-bg-dark);
+  max-width: 57rem;
+  margin: 1rem 0;
+  position: relative;
+  left: 75%;
+  top: 20px;
+};
+
+.css img {
+  float: left;
+  width: 15%;
+  border: thin solid;
+  padding: 5px;
+  margin: 0px 10px 10px 0
+}
+
+
