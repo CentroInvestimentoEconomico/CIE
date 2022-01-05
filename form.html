@@ -11,20 +11,111 @@
 </head>
 <body>
     <div class="home">
-        <div class="navbar">
-          <div class="navbar-header">
-            <a href=""><img src="/PROJETO-INTEGRADOR/assets/cie.png" alt="logo-CIE" class="navbar-header__logo"></a>
-            <button type="button" class="navbar-header__toggle">
-              <i class="fas fa-bars"></i>
-            </button>
-          </div><!-- navbar-header-->
+        <section> <!--Toda a parte da Navbar -->
         <nav>
-          <ul class="navbar-list">
-            <li><a href="#home" class="navbar-list__link">home</a></li>
-            <li><a href="/" class="navbar-list__link">recursos</a></li>
-            <li><a href="/" class="navbar-list__link">sobre</a></li>
-          </ul><!-- navbar-list-->
+        <div class="home">
+            <div class="navbar">
+              <div class="navbar-header">
+                <a href=""><img src="./assets/cie.png" alt="logo-CIE" class="navbar-header__logo"></a>
+                <button type="button" class="navbar-header__toggle">
+                  <i class="fas fa-bars"></i>
+                </button>
+              </div><!-- navbar-header-->
+      
+              <ul class="navbar-list">
+                <li><a href="#home" class="navbar-list__link">home</a></li>
+                <li><a href="/" class="navbar-list__link">recursos</a></li>
+                <li><a href="/" class="navbar-list__link">sobre</a></li>
+                <li><a href="#" class="navbar-list__link">Preencha seu Formulário</a></li>
+              </ul>
+              <!-- navbar-list-->
+      
+                <a href="/" class="navbar-btnlogin">Login&nbsp;
+                  <i class="fas fa-arrow-right"></i>
+                </a><!-- navbar-btnlogin-->
+            </div><!-- navbar-->
         </nav>
-    
+        </section> <!--Toda a parte da Navbar -->
+
+        <section>
+            <h1>Formulário</h1>
+            <form action="#" method="post">
+                <ul>
+                    <li>
+                        <label for="text">O que você ganha por mês é suficiente para arcar com os seus gastos?</label>
+                        <input type="radio" name="answer" id:="answer" value="answer"><label for="answer">Consigo pagar minhas contas e ainda guardo mais 10% dos meus ganhos todo mês;</label>
+                        <input type="radio" name="answer" id:="answer" value="answer"> 
+                    </li>
+                </ul>
+            </form>
+        </section> 
+
+        <main class="background-form">
+            <div>
+                <div>
+                    <div>
+                        <p class="background-texto__form">
+                        O CEI faz uma análise geral de como está a sua vida <br>
+                        financeira, levando em conta seu momento de vida, perfil <br>
+                        comportamental, finanças e patrimônio. <br>
+                        <p class="background-texto__form">
+                        Com o resultado da análise, também entregaremos um<br>
+                        planejamento financeiro estratégico para você dar seus<br>
+                        primeiros passos ainda hoje.<br>
+                        <p class="background-texto__form">
+                        Para que o resultado seja o mais exato possível, é preciso que <br>
+                        você responda as perguntas com atenção. Vamos lá?<br><br>
+                    </div>
+                </div>
+                <h6 class="background-texto__form__politicsprivac">Ao clicar em “Quero começar”, você concorda com a nossa
+                    <a href="#" target="_blank" rel="noopener noreferrer"><b>política de privacidade.</b></a>
+                </h6><br>
+                <div class="sc-fKVqWL KyZht">
+                    <a href="#">
+                    <button class="start-bottonform__accept" type="button">
+                        <span class="MuiButton-label">Quero começar</span>
+                    </button></a>
+                </div>
+            </div>
+            <div class="css">
+                <img src="./assets/img-card1.png" alt="img_fundopreform" >
+            </div>
+            </div>
+        </main>
+
+
+
+        <section class="news">
+            <div class="newsletter">
+              <div class="newsletter-info">
+                <h2 class="newsletter-info__titulo">Quer receber nossas novidades?</h2>
+                <p class="newsletter-info__descricao">Cadastre-se para receber nossas newsletters</p>
+              </div>
+              <form action="" class="newsletter-form">
+                <input type="email" name="email" id="" class="newsletter-form__input" placeholder="Digite seu e-mail">
+                <button type="submit" class="newsletter-form__submit">Quero receber</button>
+              </form>
+            </div> <!-- newsletter-->
+          </section>
+        
+          <footer class="footer">
+            <div class="footer-container">
+                <ul class="footer-list">
+                    <li class="footer-list__item"><a href="" class="footer-list__link">Perguntas frequentes</a></li>
+                    <li class="footer-list__item"><a href="" class="footer-list__link">Fale Conosco</a></li>
+                </ul>
+        
+                <ul class="footer-redessociais">
+                    <li><a href=""><i class="fab fa-facebook"></i></a></li>
+                    <li><a href=""><i class="fab fa-github"></i></a></li>
+                    <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                    <li><a href=""><i class="fab fa-whatsapp"></i></a></li>
+                </ul>
+            </div>
+            <div class='copyright'>
+              <h6><i class="far fa-copyright"></i> CIE, All Right Reserved </h6>
+            </div>
+          </footer>   
+          <script src="/js/toggle.js"></script>
 </body>
 </html>
