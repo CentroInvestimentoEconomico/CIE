@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" referrerpolicy="no-referrer">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="home">
+        <section> <!--Toda a parte da Navbar -->
+        <nav>
+        <div class="home">
+            <div class="navbar">
+              <div class="navbar-header">
+                <a href=""><img src="./assets/cie.png" alt="logo-CIE" class="navbar-header__logo"></a>
+                <button type="button" class="navbar-header__toggle">
+                  <i class="fas fa-bars"></i>
+                </button>
+              </div><!-- navbar-header-->
+      
+              <ul class="navbar-list">
+                <li><a href="#home" class="navbar-list__link">home</a></li>
+                <li><a href="/" class="navbar-list__link">recursos</a></li>
+                <li><a href="/" class="navbar-list__link">sobre</a></li>
+                <li><a href="#" class="navbar-list__link">Quero investir melhor</a></li>
+              </ul>
+              <!-- navbar-list-->
+      
+                <a href="/" class="navbar-btnlogin">Login&nbsp;
+                  <i class="fas fa-arrow-right"></i>
+                </a><!-- navbar-btnlogin-->
+            </div><!-- navbar-->
+        </nav>
+        </section> <!--Toda a parte da Navbar -->
+        </div>
+
+        <main class="background-perfil">
+            <section class="formulario-perfil">
+            <div class="form_perf_finan">
+                <form action="/registro" method="get">
+                    <h1><b>Gastador, Controlado, Desapegado, Poupador ou Investidor?! Descubra quem é você na fila do pão das finanças.</b></h1>
+                    <br>
+                    <ul>
+                        <li> 
+                            <label class="question">1. O que você ganha por mês é suficiente para arcar com os seus gastos?</label>
+                            <br><br>
+                            <input type="radio" name="um"  id="answer_1" value="1"><label>Consigo pagar as minhas contas e ainda guardo mais 10% dos meus ganhos;</label><br>
+                            <input type="radio" name="um" id="answer_2" value="2"><label>É suficiente, mas não sobra nada;</label><br>
+                            <input type="radio" name="um" id="answer_3" value="3"><label>Gasto todo o meu dinheiro e ainda uso o limite de cheque especial ou peço emprestado para parentes e amigos.</label>
+                        </li>
+                        <br><br><br>
+                        <li> 
+                            <label class="question">2. Você tem conseguido pagar suas despesas em dia e à vista?</label>
+                            <br><br>
+                            <input type="radio" name="dois"  id="answer_1" value="1"><label>Pago em dia, à vista e, em alguns casos, com bons descontos;</label><br>
+                            <input type="radio" name="dois" id="answer_2" value="2"><label>Quase sempre, mas tenho que parcelar as compras de maior valor;</label><br>
+                            <input type="radio" name="dois" id="answer_3" value="3"><label>Sempre parcelo meus compromissos e utilizo linhas de crédito como cheque especial, cartão de crédito e crediário.</label>
+                        </li>
+                        <br><br><br>
+                        <li> 
+                            <label class="question">3. Você realiza seu orçamento financeiro mensalmente?</label>
+                            <br><br>
+                            <input type="radio" name="tres"  id="answer_1" value="1"><label>Faço periodicamente e comparo o orçado com o realizado;</label><br>
+                            <input type="radio" name="tres" id="answer_2" value="2"><label>Somente registro o realizado, sem analisar os gastos;</label><br>
+                            <input type="radio" name="tres" id="answer_3" value="3"><label>Não faço o meu orçamento financeiro.</label>
+                        </li>
+                        <br><br><br>
+                        <li> 
+                            <label class="question">4. Como você planeja a sua aposentadoria?</label>
+                            <br><br>
+                            <input type="radio" name="quatro"  id="answer_1" value="1"><label>Tenho planos alternativos de previdência privada para garantir minha segurança financeira;</label><br>
+                            <input type="radio" name="quatro" id="answer_2" value="2"><label>Contribuo para a previdência social, sei que preciso de reserva extra, mas não consigo poupar;</label><br>
+                            <input type="radio" name="quatro" id="answer_3" value="3"><label>Não contribuo para a previdência social e nem para a privada.</label>
+                        </li>
+                        <br><br><br>
+                        <li> 
+                            <label class="question">5. Você consegue fazer algum tipo de investimento?</label>
+                            <br><br>
+                            <input type="radio" name="cinco"  id="answer_1" value="1"><label>Utilizo mais de 10% do meu ganho em linhas de investimentos, que variam de acordo com os meus sonhos;</label><br>
+                            <input type="radio" name="cinco" id="answer_2" value="2"><label>Quando sobra dinheiro, invisto, normalmente, na poupança;</label><br>
+                            <input type="radio" name="cinco" id="answer_3" value="3"><label>Nunca sobra dinheiro para esse tipo de ação.</label>
+                        </li>
+                        <br><br><br>
+                        <li> 
+                            <label class="question">6. Você consegue fazer algum tipo de investimento?</label>
+                            <br><br>
+                            <input type="radio" name="seis"  id="answer_1" value="1"><label>Utilizo mais de 10% do meu ganho em linhas de investimentos, que variam de acordo com os meus sonhos;</label><br>
+                            <input type="radio" name="seis" id="answer_2" value="2"><label>Quando sobra dinheiro, invisto, normalmente, na poupança;</label><br>
+                            <input type="radio" name="seis" id="answer_3" value="3"><label>Nunca sobra dinheiro para esse tipo de ação.</label>
+                        </li>
+                        <br><br><br>
+                        <li> 
+                            <label class="question">7. O que você entende sobre ser Independente Financeiramente?</label>
+                            <br><br>
+                            <input type="radio" name="sete"  id="answer_1" value="1"><label>Que posso trabalhar por prazer e não por necessidade;</label><br>
+                            <input type="radio" name="sete" id="answer_2" value="2"><label>Que posso ter dinheiro para viver bem o dia a dia;</label><br>
+                            <input type="radio" name="sete" id="answer_3" value="3"><label>Que posso curtir a vida intensamente e não pensar no futuro.</label>
+                        </li>
+                        <br><br><br>
+                        <li> 
+                            <label class="question">8. Você sabe quais são seus sonhos e objetivos de curto, médio e longo prazos?</label>
+                            <br><br>
+                            <input type="radio" name="oito"  id="answer_1" value="1"><label>Sei quais são, quanto custam e por quanto tempo terei que guardar dinheiro para realizá-los;</label><br>
+                            <input type="radio" name="oito" id="answer_2" value="2"><label>Tenho muitos sonhos e sei quanto custam, mas não sei como realizá-los;</label><br>
+                            <input type="radio" name="oito" id="answer_3" value="3"><label>Sempre acabo deixando os meus sonhos e objetivos para o futuro, porque não consigo guardar dinheiro para eles.</label>
+                        </li>
+                        <br><br><br>
+                        <li> 
+                            <label class="question">9. Se um imprevisto alterasse a sua situação financeira, qual seria a sua reação?</label>
+                            <br><br>
+                            <input type="radio" name="nove"  id="answer_1" value="1"><label>Faria um bom diagnóstico financeiro, registrando o que ganho e o que gasto, além dos meus investimentos e dívidas, se os tiverem;</label><br>
+                            <input type="radio" name="nove" id="answer_2" value="2"><label>Cortaria despesas e gastos desnecessários;</label><br>
+                            <input type="radio" name="nove" id="answer_3" value="3"><label>Não saberia por onde começar e teria medo de encarar a minha verdadeira situação financeira.</label>
+                        </li>
+                        <br><br><br>
+                        <li> 
+                            <label class="question">10. Se a partir de hoje você não recebesse mais seu ganho, por quanto tempo você conseguiria manter seu atual padrão de vida?</label>
+                            <br><br>
+                            <input type="radio" name="dez"  id="answer_1" value="1"><label>Conseguiria fazer tudo o que faço por 10 anos ou mais;</label><br>
+                            <input type="radio" name="dez" id="answer_2" value="2"><label>Manteria o meu padrão de vida por, no máximo, um ano;</label><br>
+                            <input type="radio" name="dez" id="answer_3" value="3"><label>Não conseguiria me manter nem por alguns meses.</label>
+                        </li>
+                        <br><br><br>
+                        <li> 
+                            <label class="question">11. Quando você decide comprar um produto, qual é a sua atitude?</label>
+                            <br><br>
+                            <input type="radio" name="onze"  id="answer_1" value="1"><label>Planejo uma forma de investimento para comprar à vista e com desconto;</label><br>
+                            <input type="radio" name="onze" id="answer_2" value="2"><label>Parcelo dentro do meu orçamento;</label><br>
+                            <input type="radio" name="onze" id="answer_3" value="3"><label>Compro e depois me preocupo como vou pagar.</label>
+                        </li>
+                    </ul>
+                    <button class="button_perf_finan" type="submit">Descubra seu perfil financeiro</button>
+                </form>
+            </div>
+            </section>
+        </main>
+
+
+
+        <section class="news">
+            <div class="newsletter">
+              <div class="newsletter-info">
+                <h2 class="newsletter-info__titulo">Quer receber nossas novidades?</h2>
+                <p class="newsletter-info__descricao">Cadastre-se para receber nossas newsletters</p>
+              </div>
+              <form action="" class="newsletter-form">
+                <input type="email" name="email" id="" class="newsletter-form__input" placeholder="Digite seu e-mail">
+                <button type="submit" class="newsletter-form__submit">Quero receber</button>
+              </form>
+            </div> <!-- newsletter-->
+          </section>
+        
+          <footer class="footer">
+            <div class="footer-container">
+                <ul class="footer-list">
+                    <li class="footer-list__item"><a href="" class="footer-list__link">Perguntas frequentes</a></li>
+                    <li class="footer-list__item"><a href="" class="footer-list__link">Fale Conosco</a></li>
+                </ul>
+        
+                <ul class="footer-redessociais">
+                    <li><a href=""><i class="fab fa-facebook"></i></a></li>
+                    <li><a href=""><i class="fab fa-github"></i></a></li>
+                    <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                    <li><a href=""><i class="fab fa-whatsapp"></i></a></li>
+                </ul>
+            </div>
+            <div class='copyright'>
+              <h6><i class="far fa-copyright"></i> CIE, All Right Reserved </h6>
+            </div>
+          </footer>   
+          <script src="/js/toggle.js"></script>
+</body>
+</html>
